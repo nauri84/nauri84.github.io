@@ -1,26 +1,40 @@
-div {
-  float: left;
-  margin-right: 10px;
-  padding: 5px;
-  border-radius: 10px;
-  border: 4px solid black;
-  background: lime;
+#viewer {
+    display: flex;
+    margin-top: 40px;
+  }
+
+
+body {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+
+#rotate {
+    transform: rotate(180deg);
+    background-color: gray;
 }
 
-.first {
-  border: 4px solid red;
+#previous {
+    background-color: gray;
 }
 
-.second {
-  border: 4px solid #000000;
-  background: white;
+#fox {
+    z-index: -1;
 }
 
-.fourth {
-  border: 4px solid blue;
+.foxy {
+    z-index: -1;
+    position: relative; 
 }
 
-.fifth {
-  border: 4px solid purple;
-  background: yellow;
+.subtitles {
+    background-color: darkgray;
+    background-blend-mode: overlay;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
 }

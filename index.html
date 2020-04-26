@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Play around with existing HTML and CSS</title>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="first">Apple</div>
-<div class="second">Pear</div>
-<div class="third">Bird</div>
-<div class="fourth">Dog</div>
-<div class="fifth">Human</div>
-<!-- partial -->
-  
+    <div id="viewer">
+        <img src="http://stayathome-syllabus.greenfox.academy/week03/assets/arrow.svg" alt="LeftArrow" id="previous">
+            <div class="foxy">
+            <img src="https://cdn.pixabay.com/photo/2020/04/14/11/16/fox-5042210_960_720.jpg" alt="Fox">
+                    <div class="subtitles">
+                        <div id="transbox">
+                        <h1>Fox</h1>
+                        <p>This is a very cute fox</p>
+                        </div>
+                    </div>
+            </div>
+        <img src="http://stayathome-syllabus.greenfox.academy/week03/assets/arrow.svg" alt="RightArrow" id="rotate">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
